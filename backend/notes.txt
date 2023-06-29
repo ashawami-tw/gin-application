@@ -1,0 +1,23 @@
+code examples -
+producer and consumer - https://www.tutorialsbuddy.com/read-data-from-a-kafka-topic-in-go-example
+
+articles -
+consumer-offset - https://medium.com/lydtech-consulting/kafka-consumer-auto-offset-reset-d3962bad2665#:~:text=The%20auto%20offset%20reset%20consumer%20configuration%20defines%20how%20a%20consumer,topic%20for%20the%20first%20time.
+kafka-docker - https://www.confluent.io/blog/kafka-client-cannot-connect-to-broker-on-aws-on-docker-etc/
+kafka-listeners - https://rmoff.net/2018/08/02/kafka-listeners-explained/
+
+golang -
+go-with-test - https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/hello-world
+go-examples - https://gowebexamples.com/
+go-examples - https://golangbyexample.com/
+
+golang test -
+db test - https://medium.com/@suuum/testing-in-golang-part-2-database-integration-tests-ad6880de22b4
+mock test - https://medium.com/@thegalang/testing-in-go-mocking-mvc-using-testify-and-mockery-c25344a88691
+mock test - https://betterprogramming.pub/unit-testing-in-go-language-using-mocks-3b873ce1348d
+unit test - https://stackoverflow.com/questions/71825212/how-to-test-go-mock-repository-inside-loop-on-usecase
+
+
+volumes:
+      - ./data/kafka1/data:/var/lib/kafka/data
+      - ./data/kafka1/etc:/etc/kafka
